@@ -1,8 +1,35 @@
 aid: champ-ai
 name: Champ Ai
-description: Champ Ai is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Champ AI is an AI operations platform that automates complex, multi-step
+  enterprise back-office workflows through autonomous agents that browse, read,
+  call, and act on behalf of operations teams. Positioned as an AI-native
+  replacement for traditional business process outsourcing (BPO), Champ combines
+  browser automation across legacy portals and internal tools, document
+  intelligence, outbound voice AI, and SOP-to-agent conversion with process
+  mining and more than 100 integrations. The platform targets regulated,
+  operations-heavy verticals such as healthcare and professional employer
+  organizations (PEO), claiming 95%+ accuracy on complex standard operating
+  procedures and 4-10x ROI on operational spend. Founded by Jagannath Putrevu,
+  Ted Cheng, and Peter Lin (early Instacart operators), Champ AI emerged from
+  stealth in May 2026 with an $8.5M seed round led by Redpoint Ventures with
+  participation from defy.vc and SV Angel. This profile was surfaced as a
+  Redpoint Ventures portfolio company and enriched from the company's public
+  website; Champ AI does not currently publish a public developer API, SDKs, or
+  API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/champ-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://champ.ai/opengraph-image
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +38,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Automation
+- Business Process Outsourcing
+- Workflow Automation
+- Document Intelligence
+- Voice AI
+- Healthcare
+- Operations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +59,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.champ.ai/
+- type: Blog
+  url: https://www.champ.ai/blog
+- type: Pricing
+  url: https://www.champ.ai/pricing
+- type: TermsOfService
+  url: https://www.champ.ai/terms
+- type: PrivacyPolicy
+  url: https://www.champ.ai/privacy
+- type: Security
+  url: https://www.champ.ai/security
+- type: Compliance
+  url: https://www.champ.ai/security
+- type: TrustCenter
+  url: security/champ-ai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/champ-ai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/champ-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

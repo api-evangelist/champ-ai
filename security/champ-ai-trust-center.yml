@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.champ.ai/security
+url: https://app.vanta.com/champ/trust/bq309cveyw7nelou3cks6
+security_page: https://www.champ.ai/security
+platform: Vanta
+certifications:
+- SOC 2 Type II
+- HIPAA
+- CCPA
+documents:
+- SOC 2 Type II Report
+- Penetration Test Summary
+- Security Questionnaire (CAIQ & SIG)
+- HIPAA Compliance documentation
+evidence:
+- source: https://www.champ.ai/security
+  keywords:
+  - soc 2 type ii
+  - hipaa
+  - ccpa
+  - trust center
+  - vanta
