@@ -56,7 +56,7 @@ tags:
 - AI Agents
 - Automation
 - Business Process Outsourcing
-- Workflow-Automation
+- Workflow Automation
 - Document Intelligence
 - Voice AI
 - Healthcare
@@ -71,6 +71,7 @@ tags_raw:
 - Voice AI
 - Healthcare
 - Operations
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
