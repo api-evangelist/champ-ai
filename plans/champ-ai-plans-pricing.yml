@@ -1,0 +1,51 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.champ.ai/pricing
+sources:
+- https://www.champ.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: VPC deployment
+  managed_tier: Startup
+published: true
+note: Platform fee plus committed usage credits; usage billed by runs. Comparison table shows Enterprise
+  credits $10,000 while plan cards say Custom.
+plan_count: 3
+currency: USD
+plans:
+- name: Startup
+  price_text: $2,000 / MO
+  price: 2000
+  currency: USD
+  period: month
+  unit: committed usage credits
+  included_quota: Offsets setup & support; Usage billed by number of runs; Browser, document & voice agents;
+    Copilot & flow editor. Platform setup & support $500 / mo
+  overage: Usage fees by runs
+- name: Growth
+  price_text: $5,000 / MO
+  price: 5000
+  currency: USD
+  period: month
+  unit: committed usage credits
+  included_quota: 'Everything in Startup, plus: Role-based access control, HIPAA + BAA add-on ($1,000/mo),
+    Priority support, Higher usage limits. Platform setup & support $1,000 / mo'
+  overage: Usage fees by runs
+- name: Enterprise
+  price_text: 'Committed usage credits: Custom'
+  period: month
+  unit: committed usage credits
+  included_quota: 'Everything in Growth, plus: Zero data retention, VPC deployment, Custom HIPAA + BAA
+    terms, Volume discounts. Comparison table lists $10,000'
+  overage: by runs
+rate_limit_statements:
+- Higher usage limits
