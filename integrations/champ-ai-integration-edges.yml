@@ -1,0 +1,20 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/champ-ai/integrations
+- https://zapier.com/apps/champ/integrations
+- https://n8n.io/integrations/champ-ai/
+- https://n8n.io/integrations/champ/
+- https://composio.dev/toolkits/champ-ai
+- https://monid.ai/tools/champ-ai
+checked:
+- https://composio.dev/toolkits/champ-ai
+- https://monid.ai/tools/champ-ai
+- https://n8n.io/integrations/champ-ai/
+- https://n8n.io/integrations/champ/
+- https://zapier.com/apps/champ-ai/integrations
+- https://zapier.com/apps/champ/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
